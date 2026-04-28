@@ -1,0 +1,71 @@
+# ========================
+# Virtual Environments
+# ========================
+# Single shared venv at repo root
+venv/
+env/
+.venv/
+.env_dir/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+*.env
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# IDE
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# Testing
+# ========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========================
+# RAG / Vector DB
+# ========================
+chroma_db/
+*.db
+*.sqlite
+*.faiss
+*.index
+embeddings/
+vector_store/
